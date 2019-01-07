@@ -3,11 +3,11 @@
   socket.on('connect',()=>{
 
    console.log("connected ton server");
-   socket.emit('createdMsg',{
-       To:'Aman',
-       text:'hi aman how are you',
-       createdAt:123
-   });
+   // socket.emit('createdMsg',{
+   //     from:'Aman',
+   //     text:'hi aman how are you',
+   //     createdAt:123
+   // });
 
 
 
@@ -21,6 +21,6 @@
   });
 
   socket.on('newMsg',(msg)=>{
-    console.log('new msg',msg)
+    console.log('newMsg',msg);
 
   });
