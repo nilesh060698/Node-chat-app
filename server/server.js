@@ -17,7 +17,7 @@ const port=process.env.PORT || 3000;
 
 app.use(express.static(publicPath));
 
-<<<<<<< HEAD
+
 
 io.on('connection',(socket)=>{
 
@@ -126,9 +126,9 @@ io.on('connection',(socket)=>{
 
 
 server.listen(port,()=>{
-=======
+
 app.listen(port,()=>{
->>>>>>> origin/master
+
 
   console.log(`server is up port ${port} `);
 
