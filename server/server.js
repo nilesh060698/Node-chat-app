@@ -19,6 +19,7 @@ app.use(express.static(publicPath));
 
 <<<<<<< HEAD
 
+
 io.on('connection',(socket)=>{
 
       console.log('new user connected');
@@ -129,6 +130,9 @@ server.listen(port,()=>{
 =======
 app.listen(port,()=>{
 >>>>>>> origin/master
+
+app.listen(port,()=>{
+
 
   console.log(`server is up port ${port} `);
 
